@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <SplitPane dividerPositions="0.4699248120300752" prefHeight="968.0" prefWidth="1024.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="692.0" prefWidth="477.0" style="-fx-background-color: #0c447b;">
+               <children>
+                  <ImageView fitHeight="184.0" fitWidth="186.0" layoutX="147.0" layoutY="244.0" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="338.0" AnchorPane.leftAnchor="147.0" AnchorPane.rightAnchor="146.0" AnchorPane.topAnchor="244.0">
+                     <image>
+                        <Image url="@../img/logo.png" />
+                     </image>
+                  </ImageView>
+                  <Label alignment="CENTER" contentDisplay="CENTER" layoutX="107.0" layoutY="456.0" prefHeight="33.0" prefWidth="264.0" text="Hotel Rainbow Line" textAlignment="CENTER" textFill="#a3b5d9">
+                     <font>
+                        <Font name="Bauhaus 93" size="28.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+               <children>
+                  <ImageView fitHeight="61.0" fitWidth="70.0" layoutX="235.0" layoutY="194.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../img/lock.png" />
+                     </image>
+                  </ImageView>
+                  <TextField fx:id="txtUid" alignment="CENTER" layoutX="121.0" layoutY="360.0" prefHeight="43.0" prefWidth="299.0" style="-fx-background-radius: 30;">
+                     <font>
+                        <Font name="Gadugi" size="20.0" />
+                     </font></TextField>
+                  <PasswordField fx:id="txtPwd" alignment="CENTER" layoutX="120.0" layoutY="447.0" prefHeight="43.0" prefWidth="299.0" style="-fx-background-radius: 30;">
+                     <font>
+                        <Font size="20.0" />
+                     </font></PasswordField>
+                  <Label layoutX="221.0" layoutY="265.0" text="Login" textFill="#0c447b">
+                     <font>
+                        <Font name="Bauhaus 93" size="42.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="130.0" layoutY="329.0" text="Username">
+                     <font>
+                        <Font name="Gadugi" size="20.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="130.0" layoutY="417.0" text="Password">
+                     <font>
+                        <Font name="Gadugi" size="20.0" />
+                     </font>
+                  </Label>
+                  <Button fx:id="btnClear" layoutX="172.0" layoutY="543.0" mnemonicParsing="false" onAction="#BtnClearOnAction" prefHeight="43.0" prefWidth="84.0" style="-fx-background-color: f21131; -fx-background-radius: 30;" text="Clear" textFill="WHITE">
+                     <font>
+                        <Font name="Gadugi" size="20.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="btnlogin" layoutX="305.0" layoutY="543.0" mnemonicParsing="false" onAction="#btnloginOnAction" prefHeight="43.0" prefWidth="84.0" style="-fx-background-color: #16f40f; -fx-background-radius: 30;" text="Login" textFill="WHITE">
+                     <font>
+                        <Font name="Gadugi" size="20.0" />
+                     </font>
+                  </Button>
+                  <Label fx:id="lblLogin" layoutX="212.0" layoutY="507.0" textAlignment="CENTER" textFill="#6f6f6f">
+                     <font>
+                        <Font name="Gadugi" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" />
+   </children>
+</VBox>

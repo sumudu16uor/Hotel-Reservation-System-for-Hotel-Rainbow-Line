@@ -1,0 +1,40 @@
+.nav_btn{
+    -fx-background-color: #0c447b;
+
+}
+
+.nav_btn .label{
+    -fx-text-fill:  #a3b5d9;
+    -fx-font: 14 Gadugi;
+    -fx-alignment: center;
+}
+
+.timebtn .label{
+    -fx-font: 14 Gadugi;
+    -fx-alignment: center;
+}
+
+.btn{
+    -fx-background-color: green;
+    -fx-background-radius: 30px;
+}
+
+.clear_btn{
+    -fx-background-color: #ff0000;
+    -fx-background-radius: 30px;
+}
+
+.clear_btn:hover{
+    -fx-background-color: #a70606;
+    -fx-background-radius: 30px;
+}
+
+.checkout_btn{
+    -fx-background-color: #038303;
+    -fx-background-radius: 30px;
+}
+
+.checkout_btn:hover{
+    -fx-background-color: #036203;
+    -fx-background-radius: 30px;
+}
